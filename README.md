@@ -74,5 +74,5 @@ To prevent these accidents, various tests should have been performed, including:
   The way you use and set up these fake objects is a bit different because Java and Python have different ways of doing things.
 
   #### Preference:
-  Use Mockito in Java and unittest.mock in Python, depending on your programming language.
-  They're both good for their respective languages, so use what fits your code.
+  Use Mockito in Java and unittest.mock in Python, depending on the programming language.
+  They're both good for their respective languages, so I will use what fits the code I'm writing. 
