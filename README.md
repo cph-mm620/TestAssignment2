@@ -62,17 +62,15 @@ To prevent these accidents, various tests should have been performed, including:
 
   ### 3.2 Mocking Frameworks
 
-  I choose to make this assignment in Python, but I very much could have choosen Java, so i would like to compare Mockito for Java and unittest.mock for Pyhton.
+  Mockito vs EasyMock
 
   #### Similarities:
-  Both Mockito (for Java) and unittest.mock (for Python) help you create fake objects for testing.
-  You can make these fake objects behave the way you want and check if they were used correctly.
+  Both EasyMock and Mockito are Java mocking frameworks that support creating mock objects, verifying interactions, and have relatively simple syntax for unit testing.
   
   #### Differences:
-  Mockito is for Java, while unittest.mock is for Python.
-  Mockito works well with Java's testing framework (JUnit), while unittest.mock is integrated with Python's testing framework.
-  The way you use and set up these fake objects is a bit different because Java and Python have different ways of doing things.
+  EasyMock requires a "replay/verify" approach, offering more control but a steeper learning curve. Mockito's "verify" method simplifies verification and tends to result in more readable and concise code.
 
   #### Preference:
-  Use Mockito in Java and unittest.mock in Python, depending on the programming language.
-  They're both good for their respective languages, so I will use what fits the code I'm writing. 
+  I personally prefer Mockito for its simplicity and readability. Mockito's straightforward syntax and "verify" method make it easier to work with, resulting in cleaner and more concise test code. While EasyMock     
+  offers more control, it has a steeper learning curve and tends to be more verbose in comparison. The choice between the two depends on project requirements and developer familiarity. Both frameworks are effective 
+  for unit testing in Java.
